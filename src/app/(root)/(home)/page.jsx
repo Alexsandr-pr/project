@@ -45,7 +45,20 @@ export default function Home() {
                     <div className="flex bg-linear border border-[#B4A4A4] rounded-[5px]">
                         <div className="basis-[38%] relative">
                             <Image
-                                className="h-full w-full object-cover left-0 top-0"
+
+                                className=" aspect-video w-full "
+                                width={242}
+                                height={136}
+                                src="/assets/image.jpg" alt=""
+                            />
+                            <Image
+                                className=" aspect-video w-full  h-auto "
+                                width={242}
+                                height={136}
+                                src="/assets/image.jpg" alt=""
+                                />
+                            <Image
+                                className=" aspect-video w-full "
                                 width={242}
                                 height={136}
                                 src="/assets/image.jpg" alt=""
@@ -66,7 +79,7 @@ export default function Home() {
                                 <img src="/assets/user.png" alt="" />
                                 <span>Team Unification</span>
                             </div>
-                            <div className="flex gap-6 leading-[1.1]">
+                            <div className="flex gap-6 gap-y-2 leading-[1.1] flex-wrap">
                                 <div className="flex items-center gap-2 text-[#222] font-normal text-[10px] lg:text-xs">
                                     <img src="/assets/viewed.png" alt="" />
                                     16.08.2024
