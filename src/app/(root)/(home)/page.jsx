@@ -2,7 +2,7 @@ import Category from "@/app/(root)/(home)/_components/Category";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Sale from "./_components/Sale";
-import BlocksHeader from "@/components/Blocksheader";
+import BlocksHeader from "@/components/BlocksHdeader";
 import CardItems from "./_components/CardItems";
 import { productBestSellers, productNew } from "@/consts/consts";
 import Stock from "./_components/Stock";
