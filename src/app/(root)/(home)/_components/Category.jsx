@@ -27,7 +27,7 @@ const Category = () => {
                 {
                     homeCategorySlider.map(({label, image}) => {
                         return (
-                            <SwiperSlide className='max-w-[184px] duration-300 transition-all hover:bg-primary-25 group rounded-lg shadow-2 bg-white w-fit py-2 px-[18px]'>
+                            <SwiperSlide key={label} className='max-w-[184px] duration-300 transition-all hover:bg-primary-25 group rounded-lg shadow-2 bg-white w-fit py-2 px-[18px]'>
                                 <Link href={"/"} className="flex flex-col  items-center">
                                     <Image
                                         className='mb-2 max-w-full'
