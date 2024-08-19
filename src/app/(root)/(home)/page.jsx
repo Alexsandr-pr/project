@@ -15,7 +15,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row gap-5  justify-between py-6 ">
                 <div className="basis-full md:basis-2/5 flex min-h-full flex-col mb:py-2 sm:py-6 xl:py-[56px] items-start">
                     <h1 className="text-3xl sm:text-5xl xl:text-6xl text-primary-700 sm:mb-2.5  lg:mb-[50px]">Tech Heim</h1>
-                    <p className="text-xl sm:text-2xl lg:text-3xl h-full mb-5 text-primary-700 font-medium leading-normal">"Join the <span className="text-secondar">digital revolution</span>"</p>
+                    <p className="text-xl sm:text-2xl lg:text-3xl h-full mb-5 text-primary-700 font-medium leading-normal">&quot;Join the <span className="text-secondar">digital revolution</span>&quot;</p>
                     <Button className={"w-full sm:w-auto"} variant="orange" size={"lg"}>
                         Explore More
                     </Button>
@@ -438,7 +438,6 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-
                     <div className="flex bg-linear border border-[#B4A4A4] rounded-[5px]">
                         <div className="basis-[38%] relative">
                             <Image
@@ -691,7 +690,6 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-
                     <div className="flex bg-linear border border-[#B4A4A4] rounded-[5px]">
                         <div className="basis-[38%] relative">
                             <Image

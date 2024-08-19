@@ -170,7 +170,7 @@ export const productBestSellers = [
     {
         sale: 0,
         image:"/assets/img/best-sellers/image-3.png",
-        name:'Apple MacBook Air 15" w/ Touch ID (2023) - Space Grey (Apple M2 Chip / 256GB SSD / 8GB RAM) - French',
+        name:"Apple MacBook Air 15 w/ Touch ID (2023) - Space Grey (Apple M2 Chip / 256GB SSD / 8GB RAM) - French",
         price: 1883,
         rating: 4.5
     },
