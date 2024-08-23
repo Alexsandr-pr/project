@@ -9,15 +9,18 @@ const BlocksHeader = ({
     children
 }) => {
     return (
-        <div className='py-6 flex flex-col gap-4 md:gap-8'>
+        <div className='py-3 md:py-6 flex flex-col gap-4 md:gap-8'>
             <div className="flex mb-2  md:mb-4 border-b-2 border-grey-400 justify-between items-center gap-5">
-                <h2 className='text-base md:text-lg  lg:text-3xl font-medium text-black'>{title}</h2>
-                <Link href={linkHref}> 
-                    <Button className={"text-black"}>
-                        View all
-                        <img src="/assets/icon/chevron.svg" alt="chevron" />
-                    </Button>
-                </Link>
+                <h2 className={`text-base md:text-lg  lg:text-3xl font-medium text-black ${ !linkHref && "mb-2"}`}>{title}</h2>
+                {
+                    linkHref && <Link href={linkHref}> 
+                                    <Button className={"text-black"}>
+                                        View all
+                                        <img src="/assets/icon/chevron.svg" alt="chevron" />
+                                    </Button>
+                                </Link>
+                }
+                
             </div>
             {children}
         </div>

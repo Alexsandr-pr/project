@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button"
 
 const Stock = () => {
     return (
-        <div className='flex gap-6 flex-col lg:flex-row'>
-            <div className="lg:w-2/3 overflow-hidden relative gap-1 sm:gap-5 pl-1 pr-3 pb-3 sm:p-6 pt-2.5 bg-stock rounded-lg flex"> 
+        <div className='flex py-3 md:py-6 gap-6 flex-col lg:flex-row'>
+            <div className=" overflow-hidden relative gap-1 sm:gap-5 pl-1 pr-3 pb-3 sm:p-6 pt-2.5 bg-stock rounded-lg flex"> 
                 <img className="absolute -left-[70px]  top-[18px]" src="/assets/img/stock/ellipse.png" alt="" />
                 <img className="absolute right-[50%]  -top-[57px]" src="/assets/img/stock/ellipse.png" alt="" />
                 <img className="absolute -right-[23px] -bottom-[27px]" src="/assets/img/stock/ellipse.png" alt="" />
@@ -42,9 +42,6 @@ const Stock = () => {
                         </Button>
                     </div>
                 </div>
-            </div>
-            <div className="lg:w-1/3">
-
             </div>
         </div>
     )

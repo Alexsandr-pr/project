@@ -15,7 +15,135 @@ export const navLinks = [
     },
     {
         label: "Products",
-        route: PRODUCTS
+        route: PRODUCTS,
+        subTabs: [
+            {
+                label:"Mobile Phones",
+                imageSrc:"/assets/icon/products-sub-tab/mobile.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/mobile-programming.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+            {
+                label:"Laptops & Computers ",
+                imageSrc:"/assets/icon/products-sub-tab/mobile-programming.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/mobile-programming.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+            {
+                label:"Tablets & E-reader",
+                imageSrc:"/assets/icon/products-sub-tab/mobile.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/mobile.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+            {
+                label:"Wearables ",
+                imageSrc:"/assets/icon/products-sub-tab/watch.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/watch.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+            {
+                label:"Audio",
+                imageSrc:"/assets/icon/products-sub-tab/headphone.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/headphone.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+            {
+                label:"Cameras",
+                imageSrc:"/assets/icon/products-sub-tab/camera.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/camera.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+            {
+                label:"Gaming",
+                imageSrc:"/assets/icon/products-sub-tab/game.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/game.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+            {
+                label:"Networking",
+                imageSrc:"/assets/icon/products-sub-tab/data.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/data.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+            {
+                label:"Accessories",
+                imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                subTabs: [
+                    {
+                        label:"Smart Phones",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    },
+                    {
+                        label:"Accessories",
+                        imageSrc:"/assets/icon/products-sub-tab/devices.svg",
+                    }
+                ]
+            },
+        ]
     },
     {
         label: "Blog",
@@ -182,3 +310,151 @@ export const productBestSellers = [
         rating: 4.2
     },
 ]
+
+
+export const brands = [
+    {
+        imageSrc: "/assets/img/brands/apple.png",
+        label:"Apple"
+    },
+    {
+        imageSrc: "/assets/img/brands/sony.png",
+        label:"Sony"
+    },
+    {
+        imageSrc: "/assets/img/brands/samsung.png",
+        label:"Samsung"
+    },
+    {
+        imageSrc: "/assets/img/brands/canon.png",
+        label:"Canon"
+    },
+    {
+        imageSrc: "/assets/img/brands/huawei.png",
+        label:"Huawei"
+    },
+    {
+        imageSrc: "/assets/img/brands/lenovo.png",
+        label:"Lenovo"
+    }
+]
+
+export const advantages = [
+    {
+        imageSrc: "/assets/img/advantages/01.svg",
+        label:"Latest and Greatest Tech"
+    },
+    {
+        imageSrc: "/assets/img/advantages/02.svg",
+        label:"Guarantee"
+    },
+    {
+        imageSrc: "/assets/img/advantages/03.svg",
+        label:"Free Shipping over 1000$"
+    },
+    {
+        imageSrc: "/assets/img/advantages/04.svg",
+        label:"24/7 Support"
+    },
+]
+
+export const blogPosts = [
+    {
+        imageSrc:"/assets/img/blogs/image01.png",
+        title: "Meta Platforms plans to release free software that",
+        description:"The parent company of Facebook, Meta Platforms, is introducing software to help developers ",
+        stats: {
+            timeReading: 3,
+            dateAdded: "August , 8 , 2023"
+        }
+    },
+    {
+        imageSrc:"/assets/img/blogs/image02.png",
+        title: "8 Things You Probably Didn’t Know About Headphones",
+        description:"Owning a headphone could mean a different thing for different people. For some, it act as a fashion statement. It’s easy to spot these people, the headphone are almost always just hanging around the neck.",
+        stats: {
+            timeReading: 3,
+            dateAdded: "August , 8 , 2023"
+        }
+    },
+    {
+        imageSrc:"/assets/img/blogs/image03.png",
+        title: "Analyzing the August 17th Bitcoin Price Drop",
+        description:"On August 17th at 9:30PM UTC, Bitcoin’s price dropped more than 8% in a 10-minute window, to a two-month low of under $26k. This pulled",
+        stats: {
+            timeReading: 3,
+            dateAdded: "August , 8 , 2023"
+        }
+    },
+]
+
+
+export const userPopoverLink = [
+    {
+        imageSrc: "/assets/icon/user/profile-circle.svg",
+        label: "Jimmy Smith"
+    },
+    {
+        imageSrc: "/assets/icon/user/bag-2.svg",
+        label: "Orders"
+    },
+    {
+        imageSrc: "/assets/icon/user/heart.svg",
+        label: "Wish List"
+    },
+    {
+        imageSrc: "/assets/icon/user/dollar-circle.svg",
+        label: "Payments"
+    },
+    {
+        imageSrc: "/assets/icon/user/logout.svg",
+        label: "Log out"
+    },
+]
+
+export const cardItems = [
+    {
+        id: 1,
+        name: "MacBook Pro M2 MNEJ3 2022 LLA",
+        size: "13.3 inch",
+        color: "Black",
+        quantity: 1,
+        price: 433.00,
+        imageSrc: "/assets/img/card-items/image-1.png", 
+        delivery: "Free Delivery",
+        guarantee: "Guaranteed",
+    },
+    {
+        id: 2,
+        name: "Inateck 12.3-13 Inch MacBook Case Sleeve",
+        size: "12.3-13 Inch",
+        color: "Blue",
+        quantity: 1,
+        price: 63.26,
+        imageSrc: "/assets/img/card-items/image-2.png",
+        delivery: "Free Delivery",
+        guarantee: "Guaranteed",
+    },
+    {
+        id: 3,
+        name: "Laptop Privacy Screen for 13 inch MacBook Pro & MacBook Air",
+        size: "13 inch",
+        color: "Black",
+        quantity: 1,
+        price: 23.26,
+        imageSrc: "/assets/img/card-items/image-3.png", 
+        delivery: "Free Delivery",
+        guarantee: "Guaranteed",
+    },
+    {
+        id: 4,
+        name: "Laptop Privacy Screen for 13 inch MacBook Pro & MacBook Air",
+        size: "13 inch",
+        color: "Black",
+        quantity: 1,
+        price: 23.26,
+        imageSrc: "/assets/img/card-items/image-3.png", 
+        delivery: "Free Delivery",
+        guarantee: "Guaranteed",
+    },
+];

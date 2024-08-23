@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 
-.custom-background {
-    @apply bg-center bg-cover bg-no-repeat;
-    background-image: url('/assets/img/random-shape-in-blue-png.png');
-    background-position:  top left;
-}
-.block {
-    font-family: Arial;
+@layer utilities {
+    .link {
+        @apply text-black whitespace-nowrap hover:text-primar duration-300 transition-all flex items-center gap-4 text-lg font-light hover:cursor-pointer;
+    }
+    .card-text {
+        font-size: 10px;
+        @apply  font-medium text-grey-600;
+    }
 }

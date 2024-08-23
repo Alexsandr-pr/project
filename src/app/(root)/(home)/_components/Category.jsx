@@ -10,9 +10,8 @@ import Link from 'next/link';
 
 const Category = () => {
     return (
-        <div className="py-6">
+        <div className="py-3 md:py-6">
             <Swiper
-                
                 slidesPerView={"auto"}
                 breakpoints={{
                     200: {

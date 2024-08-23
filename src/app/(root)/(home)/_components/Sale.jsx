@@ -1,8 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { Button } from "@/components/ui/button";
-import { homeSaleSlider } from "@/consts/consts";
+
 import { calculateDiscountedPrice } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
@@ -11,12 +10,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { Button } from "@/components/ui/button";
+import { homeSaleSlider } from "@/consts/consts";
+
 
 const Sale = () => {
     const swiperRef = useRef(null);
 
     return (
-        <div className="rounded-lg my-6 px-6 md:pr-0 mb:pr-8 w-full py-11 pb-2 gap-5 md:gap-10  flex mb:pl-8 flex-col md:flex-row bg-primary-500">
+        <div className="rounded-lg my-3 md:my-6 px-6 md:pr-0 mb:pr-8 w-full py-11 pb-2 gap-5 md:gap-10  flex mb:pl-8 flex-col md:flex-row bg-primary-500">
             <div className="md:w-1/4 min-h-full flex flex-col items-center">
                 <h2 className="text-2xl text-center font-medium text-white mb-2">Products On Sale</h2>
                 <p className="text-xl basis-full font-light text-white">Shop Now!</p>
